@@ -1,0 +1,21 @@
+{
+  "name": "discord-bot",
+  "version": "0.0.0",
+  "description": "A simple Node app built on fastify, instantly up and running. Built to be remixed on Glitch.com.",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/voice": "^0.17.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "fs": "^0.0.2",
+    "ytdl-core": "^4.11.5",
+    "jimp": "^0.22.12"
+  },
+  "engines": {
+    "node": "16.0"
+  }
+}
